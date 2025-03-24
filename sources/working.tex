@@ -1,59 +1,55 @@
-
 \begin{itemize}
-    \item \textbf{LCD Driver:} 
+    \item \textbf{LCD Driver:}  
     \begin{itemize}
-        \item Implemented in \texttt{lcd.h}, it includes functions such as:
+        \item Implemented in \texttt{lcd.h}, it includes functions such as:  
         \begin{itemize}
-            \item \texttt{lcd\_init()}: Initializes the LCD.
-            \item \texttt{lcd\_clear()}: Clears the LCD display.
-            \item \texttt{lcd\_print()}: Prints a string or value on the LCD.
+            \item \texttt{lcd\_init()}: Initializes the LCD.  
+            \item \texttt{lcd\_clear()}: Clears the LCD display.  
+            \item \texttt{lcd\_print()}: Prints a string or value on the LCD.  
         \end{itemize}
     \end{itemize}
     
-    \item \textbf{Button Handling:} 
+    \item \textbf{Button Handling:}  
     \begin{itemize}
-        \item Manages the detection of button presses, including numeric inputs (0-9) and special function keys.
+        \item Manages the detection of button presses, including numeric inputs (0-9) and special function keys.  
     \end{itemize}
     
-    \item \textbf{Mathematical Evaluation:} 
+    \item \textbf{Mathematical Evaluation:}  
     \begin{itemize}
-        \item Utilizes a recursive descent parser for parsing arithmetic expressions.
-        \item Supports operations such as addition, subtraction, multiplication, and division.
+        \item Utilizes a recursive descent parser for parsing arithmetic expressions.  
+        \item Supports operations such as addition, subtraction, multiplication, and division.  
     \end{itemize}
     
-    \item \textbf{Custom Mathematical Functions:} 
+    \item \textbf{Custom Mathematical Functions:}  
     \begin{itemize}
-        \item Approximates trigonometric (\texttt{sin}, \texttt{cos}) and logarithmic (\texttt{log}, \texttt{ln}) functions using iterative methods.
+        \item Approximates trigonometric (\(\sin\), \(\cos\)) and logarithmic (\(\log\), \(\ln\)) functions using iterative methods.  
     \end{itemize}
 \end{itemize}
 
 \section*{Button Mapping and Modes}
 
-Buttons facilitate numeric input and access various mathematical operations. The calculator operates in three modes:
-\vspace{2cm}
+Buttons facilitate numeric input and access various mathematical operations. The calculator operates in three modes:  
+
 \begin{itemize}
-    \item \textbf{Normal Mode:} 
+    \item \textbf{Normal Mode:}  
     \begin{itemize}
-        \item Allows entry of digits (0-9) and basic operations: \texttt{+}, \texttt{-}, \texttt{*}, \texttt{/}, \texttt{=}, and \texttt{backspace}.
+        \item Allows entry of digits (0-9) and basic operations: \(+\), \(-\), \(*\), \(/\), \(=\), and \texttt{Backspace}.  
     \end{itemize}
 
-    \item \textbf{Shift Mode:}
+    \item \textbf{Shift Mode:}  
     \begin{itemize}
-        \item Provides access to advanced mathematical functions such as:
+        \item Provides access to advanced mathematical functions such as:  
         \begin{itemize}
-            \item \texttt{sin}, \texttt{cos}, \texttt{e^{}}, and \texttt{sqrt}.
+            \item \(\sin\), \(\cos\), \(e^x\), and \(\sqrt{x}\).  
         \end{itemize}
     \end{itemize}
 
-    \item \textbf{Extra Mode:} 
+    \item \textbf{Extra Mode:}  
     \begin{itemize}
-        \item Offers extended functionality with access to:
+        \item Offers extended functionality with access to:  
         \begin{itemize}
-            \item \texttt{asin}, \texttt{acos}, \texttt{atan}.
-            \item Logarithmic functions: \texttt{log}, \texttt{ln}.
-            \item Parentheses and exponentiation (\texttt{^}).
+            \item \(\arcsin\), \(\arccos\), \(\arctan\).  
+            \item Logarithmic functions: \(\log\), \(\ln\).   
         \end{itemize}
     \end{itemize}
 \end{itemize}
-
-
